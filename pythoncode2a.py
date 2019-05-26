@@ -9,3 +9,6 @@ df=df.loc[df['Origin']=='SFO',:]
 df[['ArrDelay','Origin']].head(3).to_csv('SFO.csv')
 
 print(open('SFO.csv').read())
+
+print('Edith Adinku')
+
